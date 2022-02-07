@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="signUp.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="nav-bar d-flex">
+        <a href="/" class="btn-link d-inline_block"
+          ><h1 class="head-2">MyWebsite</h1></a
+        >
+        <div class="input-container position-rel">
+          <input
+            class="text-center padding-xs form-field border-radius-xs padding-xs text-4"
+            type="text"
+            placeholder="Search"
+          />
+          <i class="fas fa-search position-abs top-50 left-0 tranform"></i>
+        </div>
+        <button type="button" class="btn btn-secondary head-4">Login</button>
+        <a class="badge-container d-inline_block margin-md">
+          <i class="far fa-heart badge-link"></i>
+          <span
+            class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
+            >2</span
+          >
+        </a>
+        <a class="badge-container d-inline_block margin-md">
+          <i class="fas fa-shopping-cart badge-link"></i>
+          <span
+            class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
+            >2</span
+          >
+        </a>
+      </nav>
+
+      <div class="main-section d-flex">
+        <div class="form-container border-radius-xs padding-lg">
+          <h2 class="head-2 text-center">SignUp</h2>
+          <label class="form-label text-4">Email Address: </label>
+          <input
+            type="email "
+            class="form-field border-radius-xs padding-xs"
+            placeholder="name@gmail.com"
+            required
+          />
+
+          <label class="form-label text-4">Password: </label>
+          <input
+            type="password"
+            class="form-field border-radius-xs padding-xs text-4"
+            placeholder="***********"
+          />
+
+          <div class="margin-xs">
+            <input type="checkbox" />
+            <label class="form-label padding-xs">
+              I accept all Terms & Conditions</label
+            >
+          </div>
+
+          <button type="button" class="btn btn-primary d-100 head-4">
+            Create New Account
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
