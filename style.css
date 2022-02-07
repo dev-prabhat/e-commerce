@@ -1,0 +1,35 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.search-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.login-form {
+  height: 80vh;
+  justify-content: center;
+}
+
+.main-section {
+  background-color: var(--dark-theme-shade-80);
+}
+
+.form-container {
+  width: 30%;
+}
+
+.tranform {
+  transform: translate(20%, -50%);
+}
+
+.d-100 {
+  width: 100%;
+}
+
+.card-img {
+  width: 25%;
+  cursor: pointer;
+}

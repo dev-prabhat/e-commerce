@@ -4,9 +4,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce Application</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce Appication</title>
   </head>
   <body>
-    <div>IN development branch</div>
+    <div class="grid-container">
+      <nav class="container d-flex">
+        <a href="/" class="btn-link d-inline_block"
+          ><h1 class="head-2">MyWebsite</h1></a
+        >
+        <div class="search-container position-rel">
+          <input
+            class="text-center padding-xs form-field border-radius-xs padding-xs text-4"
+            type="text"
+            placeholder="Search"
+          />
+          <i class="fas fa-search position-abs top-50 left-0 tranform"></i>
+        </div>
+        <button type="button" class="btn btn-primary head-4">Login</button>
+        <a class="badge-container d-inline_block margin-md">
+          <i class="far fa-heart badge-link"></i>
+          <span
+            class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
+            >2</span
+          >
+        </a>
+        <a class="badge-container d-inline_block margin-md">
+          <i class="fas fa-shopping-cart badge-link"></i>
+          <span
+            class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
+            >2</span
+          >
+        </a>
+        <a class="btn-link d-inline_block" href="/"><h2>Cart</h2></a>
+      </nav>
+
+      <div class="main-section">
+        <div class="container d-flex">
+          <div class="card-img position-rel margin-xs">
+            <img
+              class="img-responsive"
+              src="/assests/images/men-clothing-thumbnail.jpg"
+              alt="men_clothing"
+            />
+            <div
+              class="card-badge-secondary position-abs top-50 left-0 padding-xs d-100"
+            >
+              Men Clothing
+            </div>
+          </div>
+
+          <div class="card-img position-rel margin-xs">
+            <img
+              class="img-responsive"
+              src="/assests/images/women-clothing-thumbnail.jpg"
+              alt="women_clothing"
+            />
+            <div
+              class="card-badge-secondary position-abs top-50 left-0 padding-xs d-100"
+            >
+              Women Collection
+            </div>
+          </div>
+
+          <div class="card-img position-rel margin-xs">
+            <img
+              class="img-responsive"
+              src="/assests/images/winter-collection.jpg"
+              alt="winter_collection"
+            />
+            <div
+              class="card-badge-secondary position-abs top-50 left-0 padding-xs d-100"
+            >
+              Winter Collection
+            </div>
+          </div>
+
+          <div class="card-img position-rel margin-xs">
+            <img
+              class="img-responsive"
+              src="/assests/images/men-clothing-thumbnail.jpg"
+              alt="men_clothing"
+            />
+            <div
+              class="card-badge-secondary position-abs top-50 left-0 padding-xs d-100"
+            >
+              Men Clothing
+            </div>
+          </div>
+
+          <div class="card-img position-rel margin-xs">
+            <img
+              class="img-responsive"
+              src="/assests/images/winter-collection.jpg"
+              alt="winter_collection"
+            />
+            <div
+              class="card-badge-secondary position-abs top-50 left-0 padding-xs d-100"
+            >
+              Winter Collection
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img
+            class="img-responsive"
+            src="/assests/images/landing_page_image.jpg"
+            alt="landing-page-image"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
