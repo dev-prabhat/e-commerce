@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "nav-bar nav-bar nav-bar nav-bar"
+    "filter product product product";
+}
+
+.nav-bar {
+  grid-area: nav-bar;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid var(--dark-theme-shade-20);
+}
+
+.search-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.tranform {
+  transform: translate(20%, -50%);
+}
+
+.filters {
+  grid-area: filter;
+}
+
+.product-display {
+  grid-area: product;
+  background-color: var(--dark-theme-shade-80);
+  flex-wrap: wrap;
+}
