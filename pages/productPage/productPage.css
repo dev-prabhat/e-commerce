@@ -3,7 +3,7 @@
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "nav-bar nav-bar nav-bar nav-bar"
-    "filter product product product";
+    "side-bar content content content";
 }
 
 .nav-bar {
@@ -21,12 +21,16 @@
   transform: translate(20%, -50%);
 }
 
-.filters {
-  grid-area: filter;
+.side-bar {
+  grid-area: side-bar;
 }
 
-.product-display {
-  grid-area: product;
+.content {
+  grid-area: content;
   background-color: var(--dark-theme-shade-80);
   flex-wrap: wrap;
+}
+
+.vertical-card-container {
+  box-shadow: 0px 0px 10px 0px var(--dark-theme-shade-20);
 }
