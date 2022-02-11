@@ -10,6 +10,7 @@
   grid-area: nav-bar;
   padding: 0rem 1rem;
   border-bottom: 1px solid var(--dark-theme-shade-20);
+  background-color: var(--secondary-theme-color);
 }
 
 .search-container {

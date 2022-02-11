@@ -1,3 +1,9 @@
+.nav-bar {
+  padding: 0rem 1rem;
+  border-bottom: 1px solid var(--dark-theme-shade-20);
+  background-color: var(--secondary-theme-color);
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
