@@ -2,8 +2,8 @@
   display: grid;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    "nav-bar nav-bar nav-bar nav-bar"
-    "side-bar content content content";
+    "nav-bar nav-bar nav-bar"
+    "content content content";
 }
 
 .nav-bar {
@@ -22,13 +22,8 @@
   transform: translate(20%, -50%);
 }
 
-.side-bar {
-  grid-area: side-bar;
-}
-
 .content {
   grid-area: content;
-  background-color: var(--dark-theme-shade-80);
   flex-wrap: wrap;
 }
 
