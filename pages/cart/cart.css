@@ -38,6 +38,26 @@
   background-color: var(--secondary-theme-color);
 }
 
+.quantity-btn {
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 1px solid var(--light-color);
+  cursor: pointer;
+}
+
+.quantity-number {
+  width: 2rem;
+  border: 1px solid var(--light-color);
+}
+
 .amount {
   margin-left: auto;
+}
+
+.marginL {
+  margin-left: auto;
+}
+
+.text-strike-through {
+  text-decoration: line-through;
 }
