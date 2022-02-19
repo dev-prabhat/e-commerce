@@ -13,12 +13,13 @@
 }
 
 .search-container {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
 }
 
-.tranform {
+.search-icon {
   transform: translate(20%, -50%);
+  left: 2%;
 }
 
 .side-bar {
