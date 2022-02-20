@@ -30,9 +30,8 @@
             type="text"
             placeholder="Search"
           />
-          <i class="fas fa-search position-abs top-50 left-0 tranform"></i>
+          <i class="fas fa-search position-abs top-50 search-icon"></i>
         </div>
-        <button type="button" class="btn btn-secondary head-sm">Login</button>
         <a
           class="badge-container d-inline_block margin-md"
           href="/pages/wishlist/wishlist.html"
@@ -53,11 +52,27 @@
             >2</span
           >
         </a>
+        <a
+          class="btn btn-link btn-secondary head-sm"
+          href="/pages/login/login.html"
+          >Login</a
+        >
       </nav>
 
       <section class="side-bar padding-xs">
-        <h2 class="head-md margin-sm">Filter</h2>
-        <h2 class="head-md margin-sm">Price</h2>
+        <div class="d-flex">
+          <h2 class="head-md margin-sm">Filter</h2>
+          <button class="btn btn-link btn-secondary head-sm margin-lf">
+            Clear
+          </button>
+        </div>
+
+        <form class="margin-sm">
+          <label class="head-md font-weight-semibold">Price</label><br />
+          <!-- <h2 class="head-md">Price</h2> -->
+          <input type="range" min="1" max="100" value="50" />
+        </form>
+
         <form class="margin-sm">
           <h2 class="head-md">Category</h2>
           <input type="checkbox" />
