@@ -24,6 +24,7 @@
 
 .side-bar {
   grid-area: side-bar;
+  background-color: var(--secondary-theme-color);
 }
 
 .content {
@@ -34,4 +35,8 @@
 
 .vertical-card-container {
   box-shadow: 0px 0px 10px 0px var(--dark-theme-shade-20);
+}
+
+.margin-lf {
+  margin-left: auto;
 }

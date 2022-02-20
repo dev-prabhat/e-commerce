@@ -30,7 +30,7 @@
             type="text"
             placeholder="Search"
           />
-          <i class="fas fa-search position-abs top-50 tranform"></i>
+          <i class="fas fa-search position-abs top-50 search-icon"></i>
         </div>
         <a class="badge-container d-inline_block margin-md">
           <i class="far fa-heart badge-link"></i>
@@ -60,7 +60,13 @@
             Clear
           </button>
         </div>
-        <h2 class="head-md margin-sm">Price</h2>
+
+        <form class="margin-sm">
+          <label class="head-md font-weight-semibold">Price</label><br />
+          <!-- <h2 class="head-md">Price</h2> -->
+          <input type="range" min="1" max="100" value="50" />
+        </form>
+
         <form class="margin-sm">
           <h2 class="head-md">Category</h2>
           <input type="checkbox" />
