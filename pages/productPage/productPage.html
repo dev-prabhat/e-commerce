@@ -30,28 +30,49 @@
             type="text"
             placeholder="Search"
           />
-          <i class="fas fa-search position-abs top-50 left-0 tranform"></i>
+          <i class="fas fa-search position-abs top-50 search-icon"></i>
         </div>
-        <button type="button" class="btn btn-secondary head-sm">Login</button>
-        <a class="badge-container d-inline_block margin-md">
+        <a
+          class="badge-container d-inline_block margin-md"
+          href="/pages/wishlist/wishlist.html"
+        >
           <i class="far fa-heart badge-link"></i>
           <span
             class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
             >2</span
           >
         </a>
-        <a class="badge-container d-inline_block margin-md">
+        <a
+          class="badge-container d-inline_block margin-md"
+          href="/pages/cart/cart.html"
+        >
           <i class="fas fa-shopping-cart badge-link"></i>
           <span
             class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
             >2</span
           >
         </a>
+        <a
+          class="btn btn-link btn-secondary head-sm"
+          href="/pages/login/login.html"
+          >Login</a
+        >
       </nav>
 
       <section class="side-bar padding-xs">
-        <h2 class="head-md margin-sm">Filter</h2>
-        <h2 class="head-md margin-sm">Price</h2>
+        <div class="d-flex">
+          <h2 class="head-md margin-sm">Filter</h2>
+          <button class="btn btn-link btn-secondary head-sm margin-lf">
+            Clear
+          </button>
+        </div>
+
+        <form class="margin-sm">
+          <label class="head-md font-weight-semibold">Price</label><br />
+          <!-- <h2 class="head-md">Price</h2> -->
+          <input type="range" min="1" max="100" value="50" />
+        </form>
+
         <form class="margin-sm">
           <h2 class="head-md">Category</h2>
           <input type="checkbox" />
