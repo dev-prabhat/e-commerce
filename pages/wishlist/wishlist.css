@@ -2,8 +2,8 @@
   display: grid;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    "nav-bar nav-bar nav-bar nav-bar"
-    "side-bar content content content";
+    "nav-bar nav-bar nav-bar"
+    "content content content";
 }
 
 .nav-bar {
@@ -14,30 +14,19 @@
 }
 
 .search-container {
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
 }
 
-.search-icon {
+.tranform {
   transform: translate(20%, -50%);
-  left: 2%;
-}
-
-.side-bar {
-  grid-area: side-bar;
-  background-color: var(--secondary-theme-color);
 }
 
 .content {
   grid-area: content;
-  background-color: var(--dark-theme-shade-80);
   flex-wrap: wrap;
 }
 
 .vertical-card-container {
   box-shadow: 0px 0px 10px 0px var(--dark-theme-shade-20);
-}
-
-.margin-lf {
-  margin-left: auto;
 }
