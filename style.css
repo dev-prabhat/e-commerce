@@ -9,11 +9,6 @@
   margin: 0 auto;
 }
 
-.search-container {
-  width: 40%;
-  margin: 0 auto;
-}
-
 .login-form {
   height: 80vh;
   justify-content: center;
@@ -25,11 +20,6 @@
 
 .form-container {
   width: 30%;
-}
-
-.search-icon {
-  left: 2%;
-  transform: translate(20%, -50%);
 }
 
 .card-img {
